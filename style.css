@@ -1,0 +1,32 @@
+.godiag-left { /* for br and div */
+    clear: left;
+}
+
+.godiag-right { /* for br and div */
+    clear: right;
+}
+
+div.godiag-left {
+    float: left;
+    margin: .5em 1em .5em 0;
+    background-color: #f9f9f9;
+    border: 1px solid silver;
+}
+
+div.godiag-right {
+    float: right;
+    margin: .5em .5em .5em 1em;
+    background-color: #f9f9f9;
+    border: 1px solid silver;
+}
+
+div.godiagi {
+    padding: 0.5ex;
+}
+
+div.godiagheading {
+    font-size: 94%;
+    padding-top: 0.5ex;
+}
+
+
