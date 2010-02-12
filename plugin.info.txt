@@ -1,0 +1,8 @@
+base    godiag
+author  Andreas Gohr
+email   andi@splitbrain.org
+date    2008-09-28
+name    Go Diagram Plugin
+desc    Display Go boards and offer SGF downloads of the displayed game
+url     http://www.dokuwiki.org/plugin:godiag
+

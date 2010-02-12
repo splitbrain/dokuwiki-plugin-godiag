@@ -88,20 +88,6 @@ class syntax_plugin_godiag extends DokuWiki_Syntax_Plugin {
     }
 
     /**
-     * return some info
-     */
-    function getInfo(){
-        return array(
-            'author' => 'Andreas Gohr',
-            'email'  => 'andi@splitbrain.org',
-            'date'   => '2008-09-28',
-            'name'   => 'Go Diagram Plugin',
-            'desc'   => 'Display Go boards and offer SGF downloads of the displayed game',
-            'url'    => 'http://wiki.splitbrain.org/plugin:godiag',
-        );
-    }
-
-    /**
      * What kind of syntax are we?
      */
     function getType(){
