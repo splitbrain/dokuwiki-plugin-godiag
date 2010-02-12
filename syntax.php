@@ -18,11 +18,6 @@
 if(!defined('DOKU_INC')) die();
 require_once(DOKU_PLUGIN.'syntax.php');
 
-// globals FIXME get rid of
-$me = dirname(__FILE__);
-$wgGodiagDirectory = $me . '/godiags';
-$wgGodiagPath = "godiags";
-
 /**
  * The godiag plugin class
  */
