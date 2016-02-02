@@ -114,7 +114,7 @@ class syntax_plugin_godiag extends DokuWiki_Syntax_Plugin {
     /**
      * Create output
      */
-    function render($mode, &$renderer, $data) {
+    function render($mode, Doku_Renderer $renderer, $data) {
         if($mode != 'xhtml') return false;
 
         // check for errors first
@@ -160,7 +160,7 @@ class syntax_plugin_godiag extends DokuWiki_Syntax_Plugin {
      *
      * Most work is done here, like parsing the syntax and creating the image and SGF file
      */
-    function handle($match, $state, $pos, &$handler){
+    function handle($match, $state, $pos, Doku_Handler $handler){
         $sourceandlinks = trim(substr($match,4,-5));
 
 
